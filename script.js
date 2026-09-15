@@ -37,6 +37,7 @@ async function detect(img) {
     percentage: true,
   });
   status.textContent = "";
+  console.log("output", output);
   output.forEach(renderBox);
 }
 
